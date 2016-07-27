@@ -1,7 +1,7 @@
 {
   "author": "dlutwuwei",
   "bugs": {
-    "url": "https://github.com/rebelmail/gulp-html-autoprefixer/issues"
+    "url": "https://github.com/dlutwuwei/gulp-inline-autoprefixer/issues"
   },
   "dependencies": {
     "autoprefixer": "^6.3.7",
@@ -35,10 +35,10 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/rebelmail/gulp-html-autoprefixer.git"
+    "url": "git://github.com/dlutwuwei/gulp-inline-autoprefixer.git"
   },
   "scripts": {
     "test": "mocha test/*.js"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
