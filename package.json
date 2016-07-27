@@ -1,0 +1,42 @@
+{
+  "author": "dlutwuwei",
+  "bugs": {
+    "url": "https://github.com/rebelmail/gulp-html-autoprefixer/issues"
+  },
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "html-autoprefixer": "0.3.8"
+  },
+  "description": "Gulp plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses html-autoprefixer under the hood.",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/dlutwuwei/gulp-line-autoprefixer",
+  "keywords": [
+    "autoprefixer",
+    "html",
+    "html-autoprefixer",
+    "auto-prefixer",
+    "css",
+    "gulp",
+    "gulp-html-autoprefixer"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "lib/main.js",
+  "maintainers": [
+    {
+      "email": "dlutwuwei@qq.com",
+      "name": "dlutwuwei"
+    }
+  ],
+  "name": "gulp-inline-autoprefixer",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rebelmail/gulp-html-autoprefixer.git"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "version": "0.0.1"
+}
