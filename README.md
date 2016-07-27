@@ -1,14 +1,14 @@
-# gulp-html-autoprefixer
+# gulp-inline-autoprefixer
 
-![gulp-html-autoprefixer](../master/gulp-html-autoprefixer.png?raw=true)
+![gulp-inline-autoprefixer](../master/gulp-inline-autoprefixer.png?raw=true)
 
-[Gulp](http://gulpjs.com/) plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses [html-autoprefixer](http://github.com/rebelmail/html-autoprefixer) under the hood.
+[Gulp](http://gulpjs.com/) plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses [inline-autoprefixer](http://github.com/rebelmail/inline-autoprefixer) under the hood.
 
-[![NPM version](https://badge.fury.io/js/gulp-html-autoprefixer.png)](http://badge.fury.io/js/gulp-html-autoprefixer)
+[![NPM version](https://badge.fury.io/js/gulp-inline-autoprefixer.png)](http://badge.fury.io/js/gulp-inline-autoprefixer)
 
 ```javascript
 var gulp = require( "gulp" );
-var htmlAutoprefixer = require( "gulp-html-autoprefixer" );
+var htmlAutoprefixer = require( "gulp-inline-autoprefixer" );
 
 gulp.task( "html-autoprefix", function( ) {
   return gulp.src( "./path/to/index-or-other.html" )
@@ -20,7 +20,7 @@ gulp.task( "html-autoprefix", function( ) {
 ## Installation
 
 ```
-npm install gulp-html-autoprefixer --save-dev
+npm install gulp-inline-autoprefixer --save-dev
 ```
 
 ## Contributing
