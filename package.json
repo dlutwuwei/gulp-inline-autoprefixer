@@ -4,8 +4,10 @@
     "url": "https://github.com/rebelmail/gulp-html-autoprefixer/issues"
   },
   "dependencies": {
-    "event-stream": "^3.1.7",
-    "html-autoprefixer": "^0.3.8"
+    "autoprefixer": "^6.3.7",
+    "cheerio": "^0.20.0",
+    "event-stream": "^3.3.4",
+    "postcss": "^5.1.1"
   },
   "description": "Gulp plugin to Autoprefix all CSS inside an html page - CSS inside style tags and inside style attributes. Uses html-autoprefixer under the hood.",
   "directories": {
@@ -38,5 +40,5 @@
   "scripts": {
     "test": "mocha test/*.js"
   },
-  "version": "0.0.2"
+  "version": "0.1.2"
 }
